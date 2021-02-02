@@ -1,5 +1,6 @@
-from django.db import models
 from django.views import generic
+from django.views.generic import TemplateView
+
 from .models import BlogPost
 
 # Create your views here.
@@ -14,6 +15,15 @@ from .models import BlogPost
 class HomeView(generic.ListView):
     queryset = BlogPost.objects.order_by('-created_at')
     template_name = 'home.html'
+
+
+class JennPageView(TemplateView):
+    template_name = 'jennPage.html'
+
+
+class AddView(TemplateView):
+    # model = BlogPost
+    template_name = 'addPost.html'
 
 
 '''def read_article(request, slug):

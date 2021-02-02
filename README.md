@@ -4,11 +4,11 @@
 
 <p>Blog Created with Django to learn how about it and learn web framework
 
-Started Date 01/14/2021 :) 
+ 01/14/2021 :) 
 
 Things to do:
     <li> how to add post on the webapp and not just form the admin page?</li>
-    <li>Plan who you want the page to look</li>
+    <li>Make Jennifer Page about you to look cute</li>
     <li> add buttons and pretty stuff 
     </li> 
 
