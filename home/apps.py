@@ -8,6 +8,3 @@ class HomeConfig(AppConfig):
 class JennConfig(AppConfig):
     name = 'jennPage'
 
-
-class AddConfig(AppConfig):
-    name = 'addPost'

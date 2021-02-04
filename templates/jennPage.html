@@ -3,10 +3,21 @@
 Jennifer
 {% endblock %}
 {% block page_content %}
+{% load static %}
+<html>
+    <head>
+        <title>Django Girls blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Jennifer Villalba</a></h1>
+            <h2><a>Cute assss fuck :)</a></h2>
+        </div>
 
-<!-- Blog Entries Column -->
-<html lang="en">
-<h1>Jennifer Page</h1>
+    </body>
 </html>
 
 {% endblock %}

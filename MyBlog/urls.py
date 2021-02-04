@@ -23,4 +23,5 @@ urlpatterns = [
     # path('', home_view),
     # path('<str:slug>', read_article)
     path('', include('home.urls')),
+
 ]

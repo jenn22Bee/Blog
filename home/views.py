@@ -21,11 +21,6 @@ class JennPageView(TemplateView):
     template_name = 'jennPage.html'
 
 
-class AddView(TemplateView):
-    # model = BlogPost
-    template_name = 'addPost.html'
-
-
 '''def read_article(request, slug):
     obj = get_object_or_404(BlogPost, slug=slug)
     template_name = 'read_article.html'
