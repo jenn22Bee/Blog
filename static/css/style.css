@@ -1,4 +1,14 @@
-h1 a, h2 a {
-    color: #d64161;
+body {
+    background-color: #e0f1ff;
+}
+
+h1 a, h2 {
+    color: #a80a54;
     font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
 }

@@ -21,13 +21,15 @@ class JennPageView(TemplateView):
     template_name = 'jennPage.html'
 
 
-'''def read_article(request, slug):
-    obj = get_object_or_404(BlogPost, slug=slug)
-    template_name = 'read_article.html'
-    context = {'object': obj}
-    return render(request, template_name, context)
+class AddPostView(generic.CreateView):
+    model = BlogPost
+    template_name = "addPost.html"
+    fields = '__all__'
 
-'''
+
+class DeletePostView(generic.DetailView):
+    model = BlogPost
+    template_name = 'deletePost.hltm'
 
 
 class ReadArticle(generic.DetailView):

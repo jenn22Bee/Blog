@@ -11,7 +11,7 @@
 Things to do:
     <li> how to add post on the webapp and not just form the admin page?</li>
     <li>Make Jennifer Page about you to look cute</li>
-    <li> add boton to take you to add post page on home
+    <li> add botooon to take you to add post page on home
     </li> 
     <li>FINISH the Jennifer PAGE</li>
 
